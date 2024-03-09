@@ -28,11 +28,11 @@ export const Sign = () => {
                     </div>
                     <div className="formPasswordContainer">
                       <label>Password </label>
-                      <input  className ="formInput" placeholder = "Enter your new Password"/>
+                      <input type="password" className ="formInput" placeholder = "Enter your new Password"/>
                     </div>
                     <div className="formPasswordContainer">
                       <label>Confirm Password</label>
-                      <input  className ="formInput" placeholder = "Confirm your new Password"/>
+                      <input type="password"  className ="formInput" placeholder = "Confirm your new Password"/>
                     </div>
                  
                     <div className="signinbuttoncontainer">

@@ -20,9 +20,9 @@ const user = Users.filter((u)=> u.id===1)
         </div>
         <div className="topRight">
             <div className="topbarlinks">
-                <Link to={"/login"} className="topbarlink">Log Out</Link>
+                <Link to={"/"} className="topbarlink">Log Out</Link>
                 <Link to={"/profile"} className="topbarlink">My Profile</Link>
-                <Link to={"/"} className="topbarlink">Home</Link>
+                <Link to={"/home"} className="topbarlink">Home</Link>
             </div>
             <div className="topbarIcons">
                 <div className="topbarIconItem">

@@ -29,7 +29,7 @@ export const Login = () => {
                       <input className='formInput' placeholder = "Enter your Password"/>
                     </div>
                     <div className="loginbuttoncontainer">
-                    <Link to="/">
+                    <Link to="/home">
                     <button className="loginbtn">Login</button>
                    </Link>
                       </div>

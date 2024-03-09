@@ -1,0 +1,82 @@
+.rightbarWrapper{
+    padding: 20px 20px 0 0 ;
+   
+}
+.rightbar{
+    height: calc(100vh - 0px);
+    overflow-y: scroll;
+    position: sticky;
+    top:50px;   
+}
+.birthdayContainer{
+    display: flex;
+    align-items: center;
+}
+.birthdayImg{
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
+.birthdayText{
+    font-size: 15px;
+    font-weight: 300;
+}
+.rightbarAd{
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+
+/* rightbar profile page styling */
+
+.rightbarTitle{
+    font-size: 18px;
+    margin-left: 30px;
+   
+}
+
+.rightbarInfo{
+ display: flex;
+ flex-flow: column wrap;
+}
+.rightbarInfoKey{
+    margin-right: 5px;
+    font-weight: 500;
+    color: #555;
+}
+.rightbarInfoValue{
+    font-weight: 300;
+}
+.rightbarFollowingImg{
+ height: 100px;
+ width: 100px;
+ object-fit: cover;
+ border-radius: 10px;
+}
+
+.rightbarFollowings{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content:space-between;
+}
+.rightbarFollowing{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.rightbarFollowingName{
+    color: #555;
+    margin-top: 5px;
+}
+.righbarHobbiesDesc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.hobbiesitems{
+    color: #555;
+}

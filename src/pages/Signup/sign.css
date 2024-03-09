@@ -1,0 +1,116 @@
+.signin{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+}
+.signinTop{
+    width: 100%;
+    display: flex;
+    height: 15vh;
+    justify-content:space-between ;
+}
+.signinCenter{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signinBottom{
+    width: 100%;
+    height: 15vh;
+}
+.signinCenterWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: white;
+    height: 70vh;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.signinbuttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.signinbutton{
+    width: 25vw;    
+    height: 4.5vh;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 1px 2px rgba(255, 254, 254, 0.21);
+    -moz-box-shadow: 0px 1px 1px 2px rgba(194,194,194,0.21);
+    box-shadow: 0px 1px 1px 1px rgba(194,194,194,0.21);
+    background-color: white;
+    border: 0.9px solid  #e8e8e8;
+    cursor: pointer;    
+}
+.line{
+    border: 1px solid  #bababa;
+    width: 25vw;
+    margin: 20px 0px;
+    
+
+}
+.formNameContainer,.formEmailContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:15px;
+    gap: 6px;
+}
+.formPasswordContainer{
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+    margin-top: 10px;
+}
+label{
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+}
+.signinbuttoncontainer{
+ margin-top: 40px;
+}
+
+
+
+.signinbtn{
+    width: 25vw;        
+    height: 4.5vh;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 1px 2px rgba(255, 254, 254, 0.21);
+    -moz-box-shadow: 0px 1px 1px 2px rgba(194,194,194,0.21);
+    box-shadow: 0px 1px 1px 1px rgba(194,194,194,0.21);
+    border: 0.9px solid  #e8e8e8;
+    cursor: pointer;    
+    color: white;
+    background-color: rgb(49, 49, 49);
+    font-weight: bold;
+}
+.signinbtn:hover{
+    background-color: white;
+    color: black;
+}
+.signinbutton:hover{
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.signinlogo{
+    margin-left:40px
+}
+.signinBottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 300;
+    color:#555;
+}

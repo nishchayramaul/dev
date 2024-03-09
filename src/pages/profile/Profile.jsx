@@ -21,7 +21,7 @@ export const Profile = () => {
             </div>
             <div className="profileInfo">
                 <div className="profileInfoName">{user[0].username}</div>
-                <span className="profileInfoDesc">  CS Graduate 2019 , skilled in Frontend Development</span>
+                <span className="profileInfoDesc">  CS Graduate 2023 , skilled in Frontend Development</span>
             </div>
         </div>
         <div className="profileRightBottom">

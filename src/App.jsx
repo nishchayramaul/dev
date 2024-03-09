@@ -11,8 +11,8 @@ function App() {
     <BrowserRouter>
     <Routes>
     <Route path='*' element ={<h1>404 Not Found</h1>}/>
-      <Route path='/' element ={<Home />}/>
-      <Route path = '/login' element ={<Login />}/>
+      <Route path='/' element ={<Login />}/>
+      <Route path = '/home' element ={<Home />}/>
       <Route path='/signin' element = {<Sign />}/>
       <Route path='/profile' element ={<Profile />}/>
       
